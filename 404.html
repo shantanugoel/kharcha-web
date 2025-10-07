@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Kharcha</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' 'wasm-unsafe-eval' https://plausible.shantanugoel.com; connect-src 'self' https://kharchapi.shantanugoel.com https://plausible.shantanugoel.com http://localhost:3000 http://devapi.shantanugoel.com:3000; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://plausible.shantanugoel.com; font-src 'self' data:; frame-ancestors 'none'; form-action 'self'">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/android-chrome-512x512.png">
+    <link rel="shortcut icon" href="assets/favicon.ico">
+    <link rel="manifest" href="assets/site.webmanifest">
+    <link rel="preload" as="script" href="/./assets/web-dxh205edae0dbe6405a.js" crossorigin><link rel="preload" as="fetch" type="application/wasm" href="/./assets/web_bg-dxhf8fe1f3eddb0ac7e.wasm" crossorigin>
+    <script defer data-domain="kharcha.shantanugoel.com" src="https://plausible.shantanugoel.com/js/script.js"></script>
+    <style>
+        #loading-spinner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #f9fafb;
+            z-index: 9999;
+        }
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid #e5e7eb;
+            border-top-color: #4f46e5;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        #loading-spinner p {
+            margin-top: 16px;
+            color: #6b7280;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="loading-spinner">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+    </div>
+    <div id="main"></div>
+<script type="module" async src="/./assets/web-dxh205edae0dbe6405a.js"></script>
+            </body>
+
+</html>
